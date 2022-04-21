@@ -1,0 +1,500 @@
+   41  git pull
+   42  git add .
+   43  git commit -m "Updated pom to include a finalname app"
+   44  git pull
+   45  git push
+   46  cd ../
+   47  ls
+   48  cd monsterLab/
+   49  ls
+   50  ls
+   51  ls monsterLab/
+   52  git add .
+   53  git commit -m "included build image plugin"
+   54  git pull
+   55  git push
+   56  git pull
+   57  git push
+   58  git pull
+   59  git push
+   60  git add .
+   61  git commit -m "Updated the pom to include the azure container registry"
+   62  git push
+   63  git add .
+   64  git commit -m "Updated the pom to include the azure container registry"
+   65  git push
+   66  git add .
+   67  git commit -m "Updated the pom to include the azure container registry"
+   68  git push
+   69  git add .
+   70  git commit -m "Updated the pom to include the azure container registry"
+   71  git push
+   72  git pull
+   73  git push
+   74  git add .
+   75  git pull
+   76  git commit -m "Updated the pom to include the azure container registry"
+   77  git push
+   78  git pull
+   79  git add .
+   80  git commit -m "Updated the pom to include the azure container registry"
+   81  git push
+   82  git add .
+   83  git commit -m "Updated the pom to include the azure container registry"
+   84  git push
+   85  git add .
+   86  git commit -m "Updated the pom to include the azure container registry"
+   87  git push
+   88  ssh -i /c/Users/CharlesJester/Downloads/springTest_key.pem azureuser@40.122.135.42
+   89  git clone https://github.com/adamranieri/JS-Challenge-Questions.git
+   90  git clone https://github.com/adamranieri/JS-Challenge-Questions.git
+   91  ngrok authtoken 264FrKT6ZITtzrNre4ope6CEVr2_5hq9oX4PR3UJANMqFzAnw
+   92  cd ngrok.exe 
+   93  ngrok.exe authtoken 264FrKT6ZITtzrNre4ope6CEVr2_5hq9oX4PR3UJANMqFzAnw
+   94  npx create-react-app testing
+   95  npm uninstall -g create-react-app
+   96  npx create-react-app testing
+   97  npm -v
+   98  npx create-react-app my-app
+   99  npx create-react-app@latest my-app
+  100  npx create-react-app my-app
+  101  ls
+  102  rm -rf my-app/
+  103  npx create-react-app my-app
+  104  ls
+  105  cd my-app/
+  106  ls
+  107  code .
+  108  ls
+  109  mkdir js-backend
+  110  cd js-backend/
+  111  npm init
+  112  npm i express
+  113  npm i cors
+  114  touch react101.md
+  115  notepad react101.md
+  116  npx create-react-app reston-branch
+  117  npx create-react-app reston-branch
+  118  npx create-react-app reston-branch
+  119  touch .gitignore
+  120  notepad .gitignore
+  121  git status
+  122  git pull
+  123  git add .
+  124  git reset
+  125  notepad .gitignore
+  126  git add .
+  127  git commit -m "Updated the demos"
+  128  git push
+  129  git add .
+  130  git commit -m "Added all the new react demo utilizing Redux and Router"
+  131  git push
+  132  git add .
+  133  git commit -m "Uploaded the react notes"
+  134  git push
+  135  git pull
+  136  git push
+  137  cd ../demos/
+  138  ls
+  139  mkdir react
+  140  cd react/
+  141  ls
+  142  git status
+  143  git add .
+  144  git commit -m "Added the merge-sort from the TED Talk"
+  145  git push
+  146  git pull
+  147  git push
+  148  echo "# react-redux" >> README.md
+  149  git init
+  150  git add README.md
+  151  git commit -m "first commit"
+  152  git branch -M main
+  153  git remote add origin https://github.com/SequelTeamSix/react-redux.git
+  154  git push -u origin main
+  155  ls
+  156  ls
+  157  rm -r .git
+  158  git clone https://github.com/SequelTeamSix/react-redux.git
+  159  ls
+  160  git react-redux/
+  161  cd react-redux/
+  162  ls
+  163  startup
+  164  ./startup
+  165  cd spring-aop/
+  166  ls
+  167  echo "hi" >> this.txt
+  168  cat this.txt 
+  169  ls
+  170  pwd
+  171  ls /
+  172  ls
+  173  cd Desktop/Revature/
+  174  ls
+  175  ls trainerFiles/
+  176  ls trainerFiles/tech/
+  177  ls trainerFiles/tech/java/
+  178  ls trainerFiles/tech/java/servlets/projects/helloServlets/
+  179  pwd
+  180  ls /c/Users/CharlesJester/Desktop/Revature/trainerFiles/tech/java/servlets/projects/helloServlets/
+  181  cd trainerFiles/
+  182  cd ..
+  183  ls ./
+  184  cd trainerFiles/tech/
+  185  ls ../../
+  186  ls /
+  187  ls /c/Users/
+  188  ls /c/Users/CharlesJester/
+  189  cd ../../
+  190  cd ../../
+  191  ls
+  192  ls Downloads/
+  193  ls *json
+  194  ls *.json
+  195  ls Downloads/*.json
+  196  ls
+  197  cd Downloads/
+  198  ls *.json
+  199  ls /c/
+  200  ls /c/'Program Files'/ 
+  201  ls /c/Program\ Files/
+  202  ls /c/Program\ Files/Internet\ Explorer/
+  203  ls /c/Program\ Files/Internet\ Explorer/images/
+  204  function e { echo $1 $2; }
+  205  e
+  206  e hi
+  207  e hi yo
+  208  e hi yo b
+  209  ps --help
+  210  ps -af
+  211  get-process
+  212  ps
+  213  ps -a
+  214  ps
+  215  ps
+  216  gzip --help
+  217  ls
+  218  gzip Java_React.pdf 
+  219  ls
+  220  gunzip Java_React.pdf.gz 
+  221  ls
+  222  cat Lists-Array-Lists-Source-Code.zip 
+  223  gunzip Lists-Array-Lists-Source-Code.zip
+  224  unzip Lists-Array-Lists-Source-Code.zip 
+  225  ls
+  226  ls -a
+  227  ls out/
+  228  ls out/production/ArrayLists/academy/learnprogramming/arraylists/Main.class 
+  229  cat out/production/ArrayLists/academy/learnprogramming/arraylists/Main.class
+  230  clear
+  231  ls
+  232  ls archive.zip 
+  233  ls
+  234  mkdir ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  235  mkdir -p ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  236  ls ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  237  cp archive.zip ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  238  ls ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  239  rm ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources//archive.zip
+  240  ls 
+  241  unzip --help
+  242  ls ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  243  ls ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  244  unzip archive.zip -d ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  245  ls ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  246  cat ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/pokemon.csv 
+  247  ls
+  248  ls archive.zip 
+  249  cat ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/pokemon.csv 
+  250  cd ~/Desktop/Revature/trainerFiles/batches/syntaxerror-jars/pokedex/resources/
+  251  ls
+  252  awk -F ',' '{print $32,$30,$1,$38,$39}' first_generation_pokemon.csv 
+  253  awk -F '\'*,\'*' '{print $32,$30,$1,$38,$39}' first_generation_pokemon.csv 
+  254  awk -F "\"*,\"*" '{print $32,$30,$1,$38,$39}' first_generation_pokemon.csv 
+  255  awk -F ',' '{print $32,$30,$1,$38,$39}' first_generation_pokemon.csv 
+  256  awk -F ',' '{print $32,$30,$1,$38,$39}' first_generation_pokemon.csv 
+  257  awk -F ',' '{print $31,$29,$1,$37,$38}' first_generation_pokemon.csv 
+  258  awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv 
+  259  awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv | sed 's/\|/,/'
+  260  awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv | sed 's/\|/,/g'
+  261  awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv | sed 's/|/,/g'
+  262  awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv | sed 's/|/,/g' > test.csv
+  263  ls test.csv 
+  264  cat test.csv
+  265  open test.csv
+  266  ls
+  267  rm pokemon.csv 
+  268  ls
+  269  rm test.csv 
+  270  cd ..
+  271  ls
+  272  gzip -r resources/
+  273  gzip -r resources/
+  274  ls
+  275  ls resources/
+  276  gunzip -r resources/
+  277  tar -zcvf resources.tar.gz resources/
+  278  ls
+  279  mv resources.tar.gz ..
+  280  ls
+  281  cd ..
+  282  ls
+  283  tar -tf resources.tar.gz 
+  284  ls
+  285  tar --help
+  286  tar -xvf resources.tar.gz 
+  287  ls
+  288  ls resources
+  289  rm -rf resources
+  290  rm resources.tar.gz 
+  291  ls
+  292  cd pokedex/
+  293  ls
+  294  ls resources/
+  295  echo hello > hi.txt
+  296  ls hi.txt 
+  297  cat hi.txt
+  298  echo boo > hi.txt 
+  299  cat hi.txt 
+  300  rm hi.txt 
+  301  outfile=hi.txt
+  302  out=hi.txt
+  303  echo $out
+  304  echo boo > $out
+  305  cat $out
+  306  for i in resources/*csv; do awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' first_generation_pokemon.csv | sed 's/\|/,/g'; done
+  307  for i in resources/*csv; do awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' $i | sed 's/\|/,/g'; done
+  308  for i in resources/*csv; do awk -F ',' '{print $31 "|" $29 "|" $1 "|" $37 "|" $38}' $i | sed 's/|/,/g'; done
+  309  ls
+  310  while IFS=, read -r line; do echo $line; done < resources/first_generation_pokemon.csv 
+  311  while IFS=, read -r line; do echo $line[1]; done < resources/first_generation_pokemon.csv 
+  312  while IFS=, read -r line next; do echo $line $next; done < resources/first_generation_pokemon.csv 
+  313  while IFS=, read -r line; do echo $line; done < resources/first_generation_pokemon.csv 
+  314  while IFS=, read -r skills dmgsk a b c d e f g h i j k l; do echo $skills $dmgsk; done < resources/first_generation_pokemon.csv 
+  315  while IFS=, read -r line skills dmgsk a b c d e f g h i j k l; do echo $skills $dmgsk; done < resources/first_generation_pokemon.csv 
+  316  while IFS=, read -r line skills dmgsk a b c d e f g h i j k l; do echo $line $skills $dmgsk; done < resources/first_generation_pokemon.csv 
+  317  for i in [1...10]; do echo $i; done
+  318  for i in [1,10]; do echo $i; done
+  319  for i in {1..10}; do echo $i; done
+  320  ls resources/
+  321  ls --help
+  322  ls resources/ | wc -l
+  323  length=$((ls resources/ | wc -l))
+  324  length=$(ls resources/ | wc -l)
+  325  echo $length
+  326  for i in {1..$length}; do echo $i; done
+  327  for i in {1..$(length)}; do echo $i; done
+  328  for i in {1..($length)}; do echo $i; done
+  329  for i in {1..(($length))}; do echo $i; done
+  330  for i in {1..$((length))}; do echo $i; done
+  331  for i in $(seq 0 $length); do echo $i; done
+  332  ls -al resources/
+  333  for i in $(seq 1 $length); do echo $i; done
+  334  for i in $(seq 1 $length); do mkdir -p manipulate/${i}_generation.txt; done
+  335  ls manipulate/
+  336  rm -rf mkdir
+  337  ls
+  338  rm -rf manipulate/
+  339  mkdir --help
+  340  for i in $(seq 1 $length); do mkdir manipulate/${i}_generation.txt; done
+  341  for i in $(seq 1 $length); do mkdir manipulate; touch manipulate/${i}_generation.txt; done
+  342  ls
+  343  ls
+  344  cp -r resources/ ~/Downloads/
+  345  ls ~/Downloads//resources
+  346  ls
+  347  ls ~/Downloads//resources/first_generation_pokemon.csv 
+  348  cat ~/Downloads//resources/first_generation_pokemon.csv
+  349  ls
+  350  cd ..
+  351  ls
+  352  rm -rf pokedex/
+  353  ls
+  354  cd ..
+  355  rmdir syntaxerror-jars/
+  356  ls
+  357  cd ~/
+  358  ls
+  359  chmod --help
+  360  cd Downloads/
+  361  chmod -R resources/ 777
+  362  chmod 777 -R resources/
+  363  ls -l resources/
+  364  echo $out
+  365  cat ~/Downloads/resources/first_generation_pokemon.csv | head
+  366  cat ~/Downloads/resources/first_generation_pokemon.csv | head -1
+  367  cat ~/Downloads/resources/first_generation_pokemon.csv | head -1 | sed 's/,/\n/g'
+  368  ls -l ~/Downloads/resources/
+  369  for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i; fi; done
+  370  for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i fi; done
+  371  for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i; fi; done
+  372  for i in ~/Downloads/resources/; do if [[ $i == **"first"**]]; then echo $i fi; done
+  373  for i in ~/Downloads/resources/; do if [[ "$i" == **"first"**]]; then echo $i fi; done
+  374  for i in ~/Downloads/resources/; do if [ "$i" == **"first"**]; then echo $i fi; done
+  375  for i in ~/Downloads/resources/; do if [ "$i" == **"first"**]; then echo $i; fi; done
+  376  for i in ~/Downloads/resources/; do if [ "$i" == **"first"** ]; then echo $i; fi; done
+  377  for i in ~/Downloads/resources/*; do if [ "$i" == **"first"** ]; then echo $i; fi; done
+  378  for i in ~/Downloads/resources/*csv; do if [ $i == **"first"** ]; then echo $i; fi; done
+  379  for i in ~/Downloads/resources/*csv; do if [ $i == *"first"* ]; then echo $i; fi; done
+  380  for i in ~/Downloads/resources/*csv; do echo $i; done
+  381  for i in ~/Downloads/resources/*csv; do if [ $i == *"first"* ]; then echo $i; fi; done
+  382  for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ]]; then echo $i; fi; done
+  383  for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* || $i == *"third"*]]; then echo $i; fi; done
+  384  for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ] || [$i == *"third"* ]]; then echo $i; fi; done
+  385  for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ] || [ $i == *"third"* ]]; then echo $i; fi; done
+  386  for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ||  $i == *"third"* ]]; then echo $i; fi; done
+  387  man
+  388  help
+  389  man -k
+  390  man ls
+  391  ls
+  392  ls --help
+  393  open
+  394  ls
+  395  start this.txt 
+  396  notepad bash.sh
+  397  bash bash.sh 
+  398  echo "Hello world"
+  399  echo hello
+  400  echo hello world
+  401  read name
+  402  ls
+  403  notepad this.txt &
+  404  echo this.txt 
+  405  cat this.txt 
+  406  read this.txt 
+  407  while IFS= read -r line; do echo "$line"; done < this.txt 
+  408  while IFS="\n" read -r line; do echo "$line"; done < this.txt 
+  409  notepad this.txt &
+  410  while IFS="\n" read -r line; do echo "$line"; done < this.txt 
+  411  1 + 1 
+  412  echo 1 + 1
+  413  echo 1 + 1 $(1 + 1)
+  414  echo 1 + 1 = $((1 + 1))
+  415  echo num1
+  416  echo $num1
+  417  num1 = 4
+  418  num1=4
+  419  echo $num1
+  420  num1 = 2
+  421  num1=2
+  422  echo $num1
+  423  clear
+  424  ps
+  425  clear
+  426  cd /
+  427  cd -
+  428  cd ..
+  429  cd ~/
+  430  ls
+  431  cd Downloads/
+  432  ls
+  433  cd ..
+  434  ls Downloads/
+  435  ls Downloads/resources/
+  436  ls -l Downloads/resources/
+  437  chmod
+  438  chmod --help
+  439  chmod 777 Downloads/resources/first_generation_pokemon.csv 
+  440  ls -l Downloads/resources/
+  441  ls Downloads/
+  442  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  443  mkdir Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  444  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  445  mkdir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/data_backup
+  446  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  447  mkdir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/working_dir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/test
+  448  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  449  cd Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  450  cd -
+  451  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  452  cd Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  453  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  454  cd -
+  455  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  456  ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+  457  cd Desktop/
+  458  ls
+  459  mkdir revature/trainerFiles
+  460  mkdir -p revature/trainerFiles
+  461  ls revature/trainerFiles/
+  462  ls
+  463  ls revature/trainerFiles/
+  464  mkdir -p revature-parent/trainerFiles
+  465  ls
+  466  ls revature-parent/trainerFiles/
+  467  mkdir -p revature-parent/trainerFiles/batches/syntaxerror-jars
+  468  cd revature-parent/trainerFiles/batches/syntaxerror-jars
+  469  cd ~/Desktop
+  470  cd ~/
+  471  cd ~
+  472  ls
+  473  cd Desktop/
+  474  ls
+  475  ls revature-parent/
+  476  cd Revature/trainerFiles/batches/syntaxerror-jars/
+  477  ls
+  478  ls *
+  479  cp ~/Downloads/resources/*csv data_backup/
+  480  ls *
+  481  cd data_backup/
+  482  ls
+  483  cat first_generation_pokemon.csv 
+  484  cat first_generation_pokemon.csv | head
+  485  cat first_generation_pokemon.csv | head -1
+  486  cat first_generation_pokemon.csv | tail -1
+  487  cat first_generation_pokemon.csv | head -1
+  488  cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/"
+  489  cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g"
+  490  cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g" | wc -l
+  491  ls
+  492  cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g" 
+  493  cat first_generation_pokemon.csv | head -1  
+  494  headers=cat first_generation_pokemon.csv | head -1  
+  495  headers=(cat first_generation_pokemon.csv | head -1)  
+  496  headers=$(cat first_generation_pokemon.csv | head -1)  
+  497  echo $headers
+  498  #!/bin/bash
+  499  echo "hello"
+  500  ./createCompendium.sh scripting_pokemon_compendium.csv 
+  501  cat scripting_pokemon_compendium.csv | head -5
+  502  bash myFirstFunctions.sh 
+  503  hi
+  504  hello
+  505  bash myFirstFunctions.sh 
+  506  bash myFirstFunctions.sh 
+  507  bash myFirstFunctions.sh boo
+  508  bash myFirstFunctions.sh boo
+  509  bash myFirstFunctions.sh boo
+  510  bash myFirstFunctions.sh boo
+  511  bash myFirstFunctions.sh zoo
+  512  bash myFirstFunctions.sh zoo
+  513  bash myFirstFunctions.sh gobbldegook
+  514  source myFirstFunctions.sh 
+  515  hello
+  516  hello matthew
+  517  hello
+  518  cat data_backup/fifth_generation_pokemon.csv | head -1
+  519  cat data_backup/fifth_generation_pokemon.csv | head -1 | sed "s/,/\n/g"
+  520  ./findingIndexWithName.sh 
+  521  ./findingIndexWithName.sh 
+  522  ./findingIndexWithName.sh 
+  523  cd data_backup/
+  524  ../findingIndexWithName.sh 
+  525  cd ../
+  526  ./findingIndexWithName.sh 
+  527  ./findingIndexWithName.sh 
+  528  ./findingIndexWithName.sh 
+  529  ./findingIndexWithName.sh 
+  530  ./findingIndexWithName.sh 
+  531  ./findingIndexWithName.sh 
+  532  ./findingIndexWithName.sh 
+  533  ./findingIndexWithName.sh 
+  534  ./findingIndexWithName.sh 
+  535  ./findingIndexWithName.sh 
+  536  ./findingIndexWithName.sh 
+  537  source findingIndexWithName.sh 
+  538  findIndex hp
+  539  history
+  540  history > history_fromVS.txt

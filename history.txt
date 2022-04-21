@@ -1,0 +1,501 @@
+while IFS=, read -r line skills dmgsk a b c d e f g h i j k l; do echo $line $skills $dmgsk; done < resources/first_generation_pokemon.csv 
+for i in [1...10]; do echo $i; done
+for i in [1,10]; do echo $i; done
+for i in {1..10}; do echo $i; done
+ls resources/
+ls --help
+ls resources/ | wc -l
+length=$((ls resources/ | wc -l))
+length=$(ls resources/ | wc -l)
+echo $length
+for i in {1..$length}; do echo $i; done
+for i in {1..$(length)}; do echo $i; done
+for i in {1..($length)}; do echo $i; done
+for i in {1..(($length))}; do echo $i; done
+for i in {1..$((length))}; do echo $i; done
+for i in $(seq 0 $length); do echo $i; done
+ls -al resources/
+for i in $(seq 1 $length); do echo $i; done
+for i in $(seq 1 $length); do mkdir -p manipulate/${i}_generation.txt; done
+ls manipulate/
+rm -rf mkdir
+ls
+rm -rf manipulate/
+mkdir --help
+for i in $(seq 1 $length); do mkdir manipulate/${i}_generation.txt; done
+for i in $(seq 1 $length); do mkdir manipulate; touch manipulate/${i}_generation.txt; done
+ls
+ls
+cp -r resources/ ~/Downloads/
+ls ~/Downloads//resources
+ls
+ls ~/Downloads//resources/first_generation_pokemon.csv 
+cat ~/Downloads//resources/first_generation_pokemon.csv
+ls
+cd ..
+ls
+rm -rf pokedex/
+ls
+cd ..
+rmdir syntaxerror-jars/
+ls
+cd ~/
+ls
+chmod --help
+cd Downloads/
+chmod -R resources/ 777
+chmod 777 -R resources/
+ls -l resources/
+echo $out
+cat ~/Downloads/resources/first_generation_pokemon.csv | head
+cat ~/Downloads/resources/first_generation_pokemon.csv | head -1
+cat ~/Downloads/resources/first_generation_pokemon.csv | head -1 | sed 's/,/\n/g'
+ls -l ~/Downloads/resources/
+for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i; fi; done
+for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i fi; done
+for i in ~/Downloads/resources/; do if [[ $i == **first**]]; then echo $i; fi; done
+for i in ~/Downloads/resources/; do if [[ $i == **"first"**]]; then echo $i fi; done
+for i in ~/Downloads/resources/; do if [[ "$i" == **"first"**]]; then echo $i fi; done
+for i in ~/Downloads/resources/; do if [ "$i" == **"first"**]; then echo $i fi; done
+for i in ~/Downloads/resources/; do if [ "$i" == **"first"**]; then echo $i; fi; done
+for i in ~/Downloads/resources/; do if [ "$i" == **"first"** ]; then echo $i; fi; done
+for i in ~/Downloads/resources/*; do if [ "$i" == **"first"** ]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [ $i == **"first"** ]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [ $i == *"first"* ]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do echo $i; done
+for i in ~/Downloads/resources/*csv; do if [ $i == *"first"* ]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ]]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* || $i == *"third"*]]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ] || [$i == *"third"* ]]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ] || [ $i == *"third"* ]]; then echo $i; fi; done
+for i in ~/Downloads/resources/*csv; do if [[ $i == *"first"* ||  $i == *"third"* ]]; then echo $i; fi; done
+man
+help
+man -k
+man ls
+ls
+ls --help
+open
+ls
+start this.txt 
+notepad bash.sh
+bash bash.sh 
+echo "Hello world"
+echo hello
+echo hello world
+read name
+ls
+notepad this.txt &
+echo this.txt 
+cat this.txt 
+read this.txt 
+while IFS= read -r line; do echo "$line"; done < this.txt 
+while IFS="\n" read -r line; do echo "$line"; done < this.txt 
+notepad this.txt &
+while IFS="\n" read -r line; do echo "$line"; done < this.txt 
+1 + 1 
+echo 1 + 1
+echo 1 + 1 $(1 + 1)
+echo 1 + 1 = $((1 + 1))
+echo num1
+echo $num1
+num1 = 4
+num1=4
+echo $num1
+num1 = 2
+num1=2
+echo $num1
+clear
+ps
+clear
+cd /
+cd -
+cd ..
+cd ~/
+ls
+cd Downloads/
+ls
+cd ..
+ls Downloads/
+ls Downloads/resources/
+ls -l Downloads/resources/
+chmod
+chmod --help
+chmod 777 Downloads/resources/first_generation_pokemon.csv 
+ls -l Downloads/resources/
+ls Downloads/
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+$headers | sed "s/,/\n
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+mkdir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/data_backup
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+mkdir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/working_dir Desktop/Revature/trainerFiles/batches/syntaxerror-jars/test
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+cd Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+cd -
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+cd Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+cd -
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+ls Desktop/Revature/trainerFiles/batches/syntaxerror-jars
+cd Desktop/
+ls
+mkdir revature/trainerFiles
+mkdir -p revature/trainerFiles
+ls revature/trainerFiles/
+ls
+ls revature/trainerFiles/
+mkdir -p revature-parent/trainerFiles
+ls
+ls revature-parent/trainerFiles/
+mkdir -p revature-parent/trainerFiles/batches/syntaxerror-jars
+cd revature-parent/trainerFiles/batches/syntaxerror-jars
+cd ~/Desktop
+cd ~/
+cd ~
+ls
+cd Desktop/
+ls
+ls revature-parent/
+cd Revature/trainerFiles/batches/syntaxerror-jars/
+ls
+ls *
+cp ~/Downloads/resources/*csv data_backup/
+ls *
+cd data_backup/
+ls
+cat first_generation_pokemon.csv 
+cat first_generation_pokemon.csv | head
+cat first_generation_pokemon.csv | head -1
+cat first_generation_pokemon.csv | tail -1
+cat first_generation_pokemon.csv | head -1
+cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/"
+cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g"
+cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g" | wc -l
+ls
+cat first_generation_pokemon.csv | head -1 | sed "s/,/\n/g" 
+cat first_generation_pokemon.csv | head -1  
+headers=cat first_generation_pokemon.csv | head -1  
+headers=(cat first_generation_pokemon.csv | head -1)  
+headers=$(cat first_generation_pokemon.csv | head -1)  
+echo $headers
+cd Desktop/Revature/trainerFiles/batches/syntaxerror-jars/data_backup/
+ls
+echo $headers
+headers=$(cat first_generation_pokemon.csv | head -1)  
+echo $headers | sed "s/,/\n/g"
+echo $headers | sed "s/,/\n/g" | wc -l
+cat first_generation_pokemon.csv 
+cat first_generation_pokemon.csv | wc -l
+for i in {0..152}; do 
+for i in (cat first_generation_pokemon.csv)
+for i in $(cat first_generation_pokemon.csv); do echo $i; done
+for i in $(cat first_generation_pokemon.csv); do echo $i; done
+for i in $(cat first_generation_pokemon.csv); do echo $i; done
+for IFS=, i in $(cat first_generation_pokemon.csv); do echo $i; done
+clear
+echo $headers | sed "s/,/\n/g"
+ls
+echo $headers
+echo $headers > headers.csv
+cat headers.csv 
+echo hi,there > headers.csv 
+cat headers.csv 
+echo $headers > headers.csv
+cat headers.csv 
+echo hi,there >> headers.csv 
+cat headers.csv 
+for i in {1..10}; do echo $i; done
+for i in $(ls *csv); do echo $i; done
+for i in $(ls *pokemon.csv); do echo $i; done
+ls
+cp headers.csv ../test/
+ls ../*
+rm headers.csv 
+ls
+while IFS=, read -r abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark"; done
+while IFS=, read -r abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark"; done < first_generation_pokemon.csv 
+cat fifth_generation_pokemon.csv 
+fifth_generation_pokemon.csv | head -5 | sed "s/,/\ |\ /g
+cat fifth_generation_pokemon.csv | head -5 | sed 
+cat fifth_generation_pokemon.csv | head -5 | sed "s/,/\ |\ /g"
+cat fifth_generation_pokemon.csv | head -5 | sed "s/,/\ |\ /"
+cat fifth_generation_pokemon.csv | head -5 | sed "s/,/\ |\ /g"
+gzip --help
+ls
+gzip first_generation_pokemon.csv 
+ls
+ls -l
+gunzip first_generation_pokemon.csv.gz 
+ls -l
+cd ..
+gzip -r data_backup/
+ls data_backup/
+ls
+tar --help
+tar -zvcf pokemon_generations.tar.gz data_backup/
+ls
+ls -l
+ls -l data_backup/
+history
+gunzip data_backup/first_generation_pokemon.csv.gz 
+for i in $(cat data_backup/first_generation_pokemon.csv | head -1);  do echo $i; done
+for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed );  do echo $i; done
+for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do echo $i; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do echo $i num+1 ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do echo $i $num+1 ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do echo $i ($num+1) ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do echo $i $($num+1) ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do num+=1; echo $i $num ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do num++; echo $i $num ; done
+num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); echo $i $num ; done
+array=();num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); array[$i]=$num ; done
+array=();num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); ${array[$i]=$num} ; done
+array=();num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); ${array[{$i}]=$num} ; done
+array=();num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); ${array["$i"]=$num} ; done
+array=();num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); array[$i]='$num' ; done
+declare array;num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); array[$i]='$num' ; done
+bash --version
+declare --help
+declare -A array;num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); array[$i]='$num' ; done
+declare -A dict;num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); dict[$i]='$num' ; done
+echo $dict
+dict[0]
+$dict[0]
+echo $dict[0]
+echo $dict[abilities]
+declare -A dict;num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); dict=([$i]=$num) ; done
+echo $dict
+for i in "${!dict[@]}"; do echo $i; done
+for i in "${!dict[@]}"; do echo $i ${dict[$i]}; done
+declare -A dict;num=0; for i in $(cat data_backup/first_generation_pokemon.csv | head -1 | sed "s/,/\n/g");  do ((num+=1)); dict+=([$i]=$num) ; done
+for i in "${!dict[@]}"; do echo $i ${dict[$i]}; done
+for i in "${!dict[@]}"; do echo $i ${dict[$i]} | sort; done
+for i in "${!dict[@]}"; do echo $i ${dict[$i]}; done | sort -k2
+for i in "${!dict[@]}"; do echo $i ${dict[$i]}; done | sort -k2 -n
+gunzip data_backup/
+gunzip -r data_backup/
+ls
+for i in data_backup/*csv; do cat $i | grep -v "abilities"; done
+for i in data_backup/*csv; do cat $i | grep -v "abilities" | head 1; done
+for i in data_backup/*csv; do cat $i | grep -v "abilities" | head -1; done
+ls
+mkdir help_poor_charles
+ls
+cd help_poor_charles/
+echo $headers
+ls
+cat ../data_backup/seventh_generation_pokemon.csv | head
+cat ../data_backup/sixth_generation_pokemon.csv | head
+cat ../data_backup/fifth_generation_pokemon.csv | head
+cd ../data_backup/
+while IFS=, read -r abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark"; done < first_generation_pokemon.csv 
+while IFS=, read -r abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark[0]"; done < first_generation_pokemon.csv 
+while IFS=, read -r abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark[1]"; done < first_generation_pokemon.csv 
+while IFS=, read -r abilities ; do echo "This is their abilities: $abilities[0]"; done < first_generation_pokemon.csv 
+while IFS=, read -r abilities ; do echo "This is their abilities: ${abilities[0]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r abilities ; do array=$abilities; echo "This is their abilities: ${array[0]}"; done < first_generation_pokemon.csv 
+while IFS=, read -ar abilities ; do echo "This is their abilities: ${abilities[0]}"; done < first_generation_pokemon.csv 
+while IFS=, read -ar abilities ; do echo "This is their abilities: ${abilities[1]}"; done < first_generation_pokemon.csv 
+while IFS=, read -a -r abilities ; do echo "This is their abilities: ${abilities[1]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities ; do echo "This is their abilities: ${abilities[1]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities ; do echo "This is their abilities: ${abilities[0]}"; done < first_generation_pokemon.csv 
+clear 
+read --help
+while IFS=, read -r abilities against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark[0]"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: $against_dark[0]"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[0]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities against_bug against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[1]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities; do echo "This is their abilities: ${abilities[0]}, this is their damage against bugs: ${abilities[1]}, this is their damage against dark: ${abilities[2]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[1]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[2]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[31]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[30]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[30]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[30]}"; done < first_generation_pokemon.csv 
+read --help
+clear
+ls
+cd ../
+ls
+clear
+ls
+cd help_poor_charles/
+ls
+cp ~/Downloads/pokemon_generations.tar.gz .
+ls
+tar -xf pokemon_generations.tar.gz 
+ls
+ls data_backup/
+ls
+cd data_backup/
+cd ..
+for i  in $(ls *gz); do echo $i; done
+ls *gz
+ls
+ls -l
+ls data_backup/*gz
+for i  in $(ls data_backup/*gz); do echo $i; done
+for i  in $(ls data_backup/*gz); do gunzip $i; done
+ls data_backup/
+gzip -r data_backup/
+ls data_backup/
+gunzip -r data_backup/
+ls data_backup/
+history
+clear
+ls
+awk 'fnr == 1 && nr != 1{next;}{print}' *.gz; done;
+awk 'fnr == 1 && nr != 1{next;}{print}' *.csv >> pokemon_compendium.csv
+awk 'fnr == 1 && nr != 1{next;}{print}' data_backup/*.csv >> pokemon_compendium.csv
+cat pokemon_compendium.csv 
+or i  in $(ls data_backup/*gz); do gunzip $i; done
+or i  in $(ls data_backup/*gz); do gunzip $i; done
+for i in $(ls *csv); do cat $i >> pokemon_compendium.csv; done
+for i in $(ls data_backup/*csv); do cat $i >> pokemon_compendium_forloop.csv; done
+cat pokemon_compendium_forloop.csv 
+cat pokemon_compendium_forloop.csv | grep "abilities"
+echo $headers 
+echo $headers > charles_for_pokemon_compendium.CSV
+cat charles_for_pokemon_compendium.CSV
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+cat charles_for_pokemon_compendium.CSV | grep "abilities"
+echo $headers > charles_for_pokemon_compendium.CSV
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" ; done >> charles_for_pokemon_compendium.CSV 
+cat charles_for_pokemon_compendium.CSV
+history | grep "while"
+while IFS=, read -r -a abilities -a against_bug -a against_dark; do echo "This is their abilities: $abilities, this is their damage against bugs: $against_bug, this is their damage against dark: ${against_dark[30]}"; done < first_generation_pokemon.csv 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]}\n" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} \n" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} " ; done < charles_for_pokemon_compendium.CSV 
+dum
+Name of pokemon: Metang
+Name of pokemon: Metagross
+Name of pokemon: Regirock
+Name of pokemon: Regice
+Name of pokemon: Registeel
+Name of pokemon: Latias
+Name of pokemon: Latios
+Name of pokemon: Kyogre
+Name of pokemon: Groudon
+Name of pokemon: Rayquaza
+Name of pokemon: Jirachi
+Name of pokemon: Deoxys
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} " ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[37]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+read --help
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV ay  assign the words read to sequential indices of the array
+while IFS=, read -r -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < data_backup/charles_for_pokemon_compendium.CSV 
+while IFS=, read -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV ay  assign the words read to sequential indices of the array
+while IFS=, read -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]}\n hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+read --help
+while IFS=, read -ra array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=, read -ar array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS =,  read -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+while IFS=,  read -a array ; do echo "Name of pokemon: ${array[30]} Type1: ${array[36]} hp: ${array[28]}" ; done < charles_for_pokemon_compendium.CSV 
+history | grep "for"
+clear
+cat ~/Downloads/GamificationTeamsV1-1.xlsb.xlsx 
+history
+history | grep "grep"
+for i in data_backup/*csv; do cat $i | grep -v "abilities"; done
+  598  for i in data_backup/*csv; do cat $i | grep -v "abilities" | head 1; done
+  599  for i in data_backup/*csv; do cat $i | grep -v "abilities" | head -1; done
+  675  cat pokemon_compendium_forloop.csv | grep "abilities"
+  679  for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done
+  680  cat charles_for_pokemon_compendium.CSV | grep "abilities"
+  682  for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" ; done >> charles_for_pokemon_compendium.CSV
+  684  history | grep "while"
+  717  history | grep "for"
+ls
+cat charles_for_pokemon_compendium.CSV 
+cat charles_for_pokemon_compendium.CSV | grep "dark"
+cat charles_for_pokemon_compendium.CSV | grep "dark" | grep -v "grass"
+cat charles_for_pokemon_compendium.CSV | grep "dark" | grep -v "grass" | grep -w "water,dark"
+cat charles_for_pokemon_compendium.CSV | grep "dark" | grep -v "grass" | grep -w "water,da"
+
+cat charles_for_pokemon_compendium.CSV | cut -d ',' -f30
+cat charles_for_pokemon_compendium.CSV | cut -d ',' -f31
+cut --help
+cat charles_for_pokemon_compendium.CSV | cut -d ',' -f1,31
+cat charles_for_pokemon_compendium.CSV | cut -d ',' -f1..31
+cat charles_for_pokemon_compendium.CSV | cut -d ',' -f1,2,3,31
+cut --help
+charles_for_pokemon_compendium.CSV | cut -d ' ' -f1-31
+history | grep "
+for"
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+cat charles_for_pokemon_compendium.CSV 
+cat charles_for_pokemon_compendium.CSV | wc -l
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+for i in $(ls data_backup/*csv); do cat $i | grep -v "abilities" >> charles_for_pokemon_compendium.CSV; done 
+cat charles_for_pokemon_compendium.CSV | wc -l
+ls
+history 
+history | grep "for"
+ls
+touch createCompendium.sh
+ls
+notepad createCompendium.sh 
+ls
+notepad createCompendium.sh &
+ps
+ls data_backup/
+ls data_backup/*csv
+ls data_backup/*csv | head -1
+cat createCompendium.sh 
+bash createCompendium.sh 
+bash createCompendium.sh 
+ls
+cat scripting_pokemon_compendium.csv 
+echo hi >> scripting_pokemon_compendium.csv 
+echo hi >> scripting_pokemon_compendium.csv 
+echo hi >> scripting_pokemon_compendium.csv 
+cat scripting_pokemon_compendium.csv 
+bash createCompendium.sh 
+cat scripting_pokemon_compendium.csv 
+history | grep "for"
+ls
+cat scripting_pokemon_compendium.csv 
+./createCompendium.sh 
+cat scripting_pokemon_compendium.csv 
+cat scripting_pokemon_compendium.csv | wc -l
+./createCompendium.sh 
+./createCompendium.sh 
+./createCompendium.sh 
+cat scripting_pokemon_compendium.csv | wc -l
+./createCompendium.sh scripting_pokemon_compendium.csv 
+rm scripting_pokemon_compendium.csv 
+ls
+./createCompendium.sh scripting_pokemon_compendium.csv 
+ls 
+cat scripting_pokemon_compendium.csv | wc -l
+history
+history > history.txt
+cat history.txt 
+code createCompendium.sh &
+bash myFirstFunctions.sh 
+bash myFirstFunctions.sh zoo
+hello
+declare --help
+history
+history | uniq > history.txt 
+history | uniq | cut -d '\t' -f2 > history.txt 
+history | uniq | cut -d ' ' -f2 > history.txt 
+cat history.txt 
+history | uniq | cut -d ' ' -f3 > history.txt 
+cat history.txt 
+history | uniq | cut -d ' ' -f5 > history.txt 
+cat history.txt 
+history | uniq | cut -d ' ' -f5-20 > history.txt 
+history | uniq | cut -d ' ' -f5-20 > history.txt 
+cat history.txt 
+history | uniq | cut -d ' ' -f5-200 > history.txt 
