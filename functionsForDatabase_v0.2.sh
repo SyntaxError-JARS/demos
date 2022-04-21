@@ -36,6 +36,10 @@ function addition {
 
 addition
 
+function addSuperSecretCoolFunction {
+    echo "Y'all be great!"
+}
+
 function readDatabase {
     # Simple read the database information and print it back to the user
     # a=$1 make sure your variables make sense! and offer information
@@ -90,7 +94,8 @@ function selectAColumn {
 # TODO: Implement me!
 function selectColumns {
     # Select multipole or a range of columns 
-    readDatabase | cut -d ',' -f 1,30-41 
+    # Make me more user friendly
+    readDatabase | cut -d ',' -f 1,2,30-41 
 }
 
 # TODO: Implement me!
