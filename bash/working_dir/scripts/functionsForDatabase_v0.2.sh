@@ -18,7 +18,7 @@ type=$2
 # What is allArugments=$@
 allArguments=$@
 
-echo $allArguments
+#echo $allArguments
 
 function addition {
     
@@ -34,7 +34,7 @@ function addition {
     echo $num
 }
 
-addition
+#addition
 
 function addSuperSecretCoolFunction {
     echo "Y'all be great!"
@@ -51,7 +51,7 @@ function readDatabase {
     # but we also" want a default
     if [ !$file ] # This considers the value to be false, because it contains nothing
     then
-        file=scripting_pokemon_compendium.csv
+        file=../data/scripting_pokemon_compendium.csv
     fi
 
     cat $file
@@ -78,9 +78,55 @@ function searchForType {
 }
 
 # TODO: Implement me!
-function generateTeamWith100HP {
+function generateTeamWith1000HP {
     # Randomly take pokemon from the database until the HP total is 100 for you team
-    echo Implement
+    totalHP=0;
+    numOfPokemon=0;
+    IFS=$'\n' # Set Internal Field Separator as for loops consider any whitespace an element to iterate $'\n' (for newline) will only execute at end of each row
+    for i in $(get20RandomPokemon) # Check below function IMPL
+    do
+        ((totalHP+=$(echo $i | awk -F ',' '{ print $29 }' )))
+        if (( "$totalHP" <= "1000" ))
+        then
+            echo $i | awk -F ',' '{ print "Name: " $31, "HP: " $29, "Abilities: " $1 }'
+        else
+            ((totalHP-=$(echo $i | awk -F ',' '{ print $29 }' )))
+            break;
+        fi
+    done
+    echo $totalHP
+}
+
+# SHUFFLE THOSE POKEMON
+function get20RandomPokemon {
+    IFS=$'\n'
+    for i in $(readDatabase | tail -n +2 | shuf | head -20)
+    do
+        echo $i 
+    done
+}
+
+function avgColumn {
+    # Has flaws in that if you select non-numerical column it will fail
+    total=0;
+    pokemonCount=$(readDatabase | tail -n +2 | wc -l)
+    printColumnHeaders
+    read -rep 'What column would you like to find the avg of?'$'\n' column
+    index=$(findIndex $column)
+
+    echo $index
+    IFS=$'\n'
+    for i in $(readDatabase | tail -n +2 | cut -d ',' -f $index)
+    do
+        ((total+=$i))
+    done
+
+    echo $(( total / pokemonCount )) 
+
+}
+
+function printColumnHeaders {
+    readDatabase | head -1
 }
 
 # TODO: Implement me!
@@ -98,11 +144,24 @@ function selectColumns {
     readDatabase | cut -d ',' -f 1,2,30-41 
 }
 
-# TODO: Implement me!
+declare -A dict;
+    num=1;
+    for i in $(cat ../data/scripting_pokemon_compendium.csv | head -1 | sed "s/,/\n/g"); do
+        ## We want key value pairs
+        dict+=([$i]=$num)
+        ((num++))
+    done
+
 function findIndex {
-    # Find index of column header
-    echo Implement
+    
+    if [[ $1 == "abilities" ]]
+    then
+        echo 0;
+    else
+        echo ${dict[$1]} 
+    fi
 }
+
 
 # General function structure
 #function functionName {
@@ -114,3 +173,6 @@ function findIndex {
 # script executions
 
 #searchForType
+
+avgColumn
+generateTeamWith1000HP
