@@ -1,6 +1,20 @@
 -- Create ourselves a schema	
 create schema pokedex;
 
+create table abilities (
+	ability_name varchar(25) primary key,
+	atk_multiplier int,
+	dmg_type varchar(30)
+);
+
+insert into abilities
+values
+('Scratch', 2, 'normal');
+
+insert into abilities
+values
+('Tackle', 3, 'normal');
+
 CREATE table pokemon (
 	id serial primary key,
 	pokemon_name varchar(50),
@@ -37,18 +51,6 @@ values
 
 select pokemon_name, abilities from pokemon p ;
 
-create table abilities (
-	ability_name varchar(25) primary key,
-	atk_multiplier int,
-	dmg_type varchar(30)
-);
 
-insert into abilities
-values
-('Scratch', 2, 'normal');
-
-insert into abilities
-values
-('Tackle', 3, 'normal');
 
 select * from pokemon p ;
