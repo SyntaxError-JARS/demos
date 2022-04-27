@@ -22,6 +22,7 @@ CREATE table pokemon (
 	atk int not null,
 	element_type varchar(50) not null,
 	ability_1 varchar(25)
+	ability_dmg int 
 	--constraint fk_abilities foreign key(ability_1) references abilities(ability_name)
 );
 
