@@ -10,6 +10,17 @@
 
 -- CREATE OUR TABLES & APPLY CONSTRAINTS
 
+-- Added in the Trainer table to match the system
+
+create table trainer (
+	id serial primary key,
+	fname varchar(20) not null,
+	lname varchar(20) not null,
+	email varchar(30) not null unique,
+	"password" varchar(25) not null,
+	dob varchar(15) not null
+);
+
 -- Need this incase we add any information pertaining to the element type and insuring consistency
 create table elemental_type (
 	id serial primary key,
@@ -55,9 +66,18 @@ foreign key(element_type) references elemental_type(id);
 -- drop table pokemon; 
 -- drop table abilities;
 -- drop table elemental_type;
+-- drop table trainer;
 ------------------------------------
 
 -- CREATING NEW ENTRIES
+-- Insert some trainers
+
+insert into trainer 
+values
+(default, 'Charles', 'Jester', 'cj@mail.com', 'password', '01-01-0001'),
+(default, 'Maxwell', 'House', 'mh@mail.com', 'password', '02-20-1900'),
+(default, 'Soyoung', 'Lee', 'sl@mail.com', 'password', '06-01-2002');
+
 -- single insert type first
 insert into elemental_type 
 values
@@ -130,12 +150,14 @@ join abilities a ON p.ability1 = a.ability_name;
 
 select * from pokemon_abilities;
 
+select * from trainer;
+
 -------------Read End--------------------
 
 -----------------------------------------
 -------------CRU(pdate)D-----------------
 
-
+update trainer set dob = '06-01-2002' where email = 'sl@mail.com' ;
 
 -------------Update End------------------
 
