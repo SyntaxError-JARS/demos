@@ -14,6 +14,7 @@ hoistConst(); // you wouldn't usually do this
 
 function hoistLet() {
     let greeting = "Greetings and stuffs";
+    greeting = 10;
     console.log(greeting);
 }
 
