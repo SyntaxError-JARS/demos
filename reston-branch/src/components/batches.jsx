@@ -8,7 +8,7 @@ export default function Batches() {
     // we don't want to leave hardcorded information
     //const batchList = ["JavaReactAzure", "PEGA"]; // good idea to hardcode things first
 
-    //
+    // Key lets React know that it just needs to update and add a new value, none of the other <li> elements change
     const batchListItems = batches.map((e) => <li key={e}>{e}</li>);
 
     function addBatch() {
