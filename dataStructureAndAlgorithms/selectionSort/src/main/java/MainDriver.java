@@ -27,6 +27,7 @@ public class MainDriver {
 
         System.out.println("After array end output");
 
+
         /*
         WE need to sort the above array from smallest to largest
         How?
@@ -78,6 +79,8 @@ public class MainDriver {
             array[smallestIndex] = array[i];
             array[i] = smallestValue;
         }
+
+
 
     }
 }
